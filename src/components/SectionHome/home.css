@@ -1,0 +1,177 @@
+
+
+#home {
+    width: 100%;
+    height:672px;
+     
+    background-image: url("../../../src/image/bg-home.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    position: relative;
+   overflow: hidden;
+}
+.home-sub {
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    position: absolute;
+    height: 672px;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+.home-sub-one {
+    width:100%;
+ 
+     
+
+}
+.home-content {
+    width:40%;
+    margin:auto;
+    
+    text-align: center;
+    
+}
+.home-content h1 {
+    font-size: 46px;
+   color:white;
+
+}
+.home-content p {
+    color:rgba(255, 255, 255, 0.7)
+}
+.home-content i {
+    font-size: 80px;
+    color:red;
+    cursor: pointer;
+}
+
+
+
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.waveWrapperInner {
+    position: absolute;
+    width: 200%;
+    overflow: hidden;
+    height: 40%;
+    bottom: -1px;
+    
+}
+.bgTop {
+    z-index: 15;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 5;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+   -webkit-animation: move-wave 3s;
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}
+
+
+
+.video {
+    display: none;
+    position: fixed;
+    top:0; left:0;
+    z-index: 2;
+    opacity: 0.5;  
+    width: 100%;
+    height:600px;
+}
+.video-sub {
+    width: 100%; height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-sub iframe {   
+    width:70%;
+    height:440px;
+}
+
+.dong {color:red;
+font-size: 20px;
+cursor: pointer;
+}
+
+
+
+
+
+/* reponsive */
+
+@media screen and (min-width:320px) and (max-width:1023px) {
+
+    #home h1{font-size: 32px;}
+    .home-content {width: 100%;}
+  
+    .video-sub iframe {
+        width:100%;
+         height:360px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1900px) {
+   
+    #home h1{font-size: 40px;}
+    .home-content {width: 60%;}
+    
+}
