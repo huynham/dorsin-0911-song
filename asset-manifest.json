@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/dorsin-0911-song/static/css/main.f033008c.chunk.css",
+    "main.js": "/dorsin-0911-song/static/js/main.64797ced.chunk.js",
+    "main.js.map": "/dorsin-0911-song/static/js/main.64797ced.chunk.js.map",
+    "runtime-main.js": "/dorsin-0911-song/static/js/runtime-main.39999331.js",
+    "runtime-main.js.map": "/dorsin-0911-song/static/js/runtime-main.39999331.js.map",
+    "static/js/2.ba9cd3a9.chunk.js": "/dorsin-0911-song/static/js/2.ba9cd3a9.chunk.js",
+    "static/js/2.ba9cd3a9.chunk.js.map": "/dorsin-0911-song/static/js/2.ba9cd3a9.chunk.js.map",
+    "static/js/3.d36a4eb4.chunk.js": "/dorsin-0911-song/static/js/3.d36a4eb4.chunk.js",
+    "static/js/3.d36a4eb4.chunk.js.map": "/dorsin-0911-song/static/js/3.d36a4eb4.chunk.js.map",
+    "index.html": "/dorsin-0911-song/index.html",
+    "static/css/main.f033008c.chunk.css.map": "/dorsin-0911-song/static/css/main.f033008c.chunk.css.map",
+    "static/js/2.ba9cd3a9.chunk.js.LICENSE.txt": "/dorsin-0911-song/static/js/2.ba9cd3a9.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/dorsin-0911-song/static/media/bg-home.54f33acf.jpg",
+    "static/media/blog1.92858176.jpg": "/dorsin-0911-song/static/media/blog1.92858176.jpg",
+    "static/media/blog2.61d6433c.jpg": "/dorsin-0911-song/static/media/blog2.61d6433c.jpg",
+    "static/media/blog3.e02d8424.jpg": "/dorsin-0911-song/static/media/blog3.e02d8424.jpg",
+    "static/media/feature.css": "/dorsin-0911-song/static/media/img1.8a3436d8.jpg",
+    "static/media/teamHai.css": "/dorsin-0911-song/static/media/img2.03c94a50.jpg",
+    "static/media/online-world.3a222d0d.svg": "/dorsin-0911-song/static/media/online-world.3a222d0d.svg",
+    "static/media/payment.57ed5283.png": "/dorsin-0911-song/static/media/payment.57ed5283.png",
+    "static/media/pikachu.30e9e15e.jpg": "/dorsin-0911-song/static/media/pikachu.30e9e15e.jpg",
+    "static/media/team1.10c56f8a.jpg": "/dorsin-0911-song/static/media/team1.10c56f8a.jpg",
+    "static/media/team2.ca8041d7.jpg": "/dorsin-0911-song/static/media/team2.ca8041d7.jpg",
+    "static/media/team3.b6cd3b7b.jpg": "/dorsin-0911-song/static/media/team3.b6cd3b7b.jpg",
+    "static/media/team4.6ab39f2f.jpg": "/dorsin-0911-song/static/media/team4.6ab39f2f.jpg",
+    "static/media/videocat.edc94426.mp4": "/dorsin-0911-song/static/media/videocat.edc94426.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39999331.js",
+    "static/js/2.ba9cd3a9.chunk.js",
+    "static/css/main.f033008c.chunk.css",
+    "static/js/main.64797ced.chunk.js"
+  ]
+}
